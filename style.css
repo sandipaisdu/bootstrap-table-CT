@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header_area {
+    /*background-color: #B3BFC8;*/
+    background: -webkit-linear-gradient(#d1d9de, #b2bfc8);
+    background: -moz-linear-gradient(#d1d9de, #b2bfc8);
+    background: -o-linear-gradient(#d1d9de, #b2bfc8);
+    background: -ms-linear-gradient(#d1d9de, #b2bfc8);
+    background:linear-gradient(#d1d9de, #b2bfc8);
+    margin: 10px auto;
+}
+
+table,
+th,
+tr,
+td {
+    text-align: center;
+}
+
+th {
+    background: #bac6ce;
+    /* Old browsers */
+    
+    background: -moz-linear-gradient(top, #bac6ce 0%, #bac6ce 50%, #9fb1bc 51%, #9fb1bc 100%);
+    /* FF3.6+ */
+    
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bac6ce), color-stop(50%, #bac6ce), color-stop(51%, #9fb1bc), color-stop(100%, #9fb1bc));
+    /* Chrome,Safari4+ */
+    
+    background: -webkit-linear-gradient(top, #bac6ce 0%, #bac6ce 50%, #9fb1bc 51%, #9fb1bc 100%);
+    /* Chrome10+,Safari5.1+ */
+    
+    background: -o-linear-gradient(top, #bac6ce 0%, #bac6ce 50%, #9fb1bc 51%, #9fb1bc 100%);
+    /* Opera 11.10+ */
+    
+    background: -ms-linear-gradient(top, #bac6ce 0%, #bac6ce 50%, #9fb1bc 51%, #9fb1bc 100%);
+    /* IE10+ */
+    
+    background: linear-gradient(to bottom, #bac6ce 0%, #bac6ce 50%, #9fb1bc 51%, #9fb1bc 100%);
+    /* W3C */
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bac6ce', endColorstr='#9fb1bc', GradientType=0);
+    /* IE6-9 */
+}
+
+.table>tbody>tr.success>td,
+.table>tbody>tr.success>th,
+.table>tbody>tr>td.success,
+.table>tbody>tr>th.success,
+.table>tfoot>tr.success>td,
+.table>tfoot>tr.success>th,
+.table>tfoot>tr>td.success,
+.table>tfoot>tr>th.success,
+.table>thead>tr.success>td,
+.table>thead>tr.success>th,
+.table>thead>tr>td.success,
+.table>thead>tr>th.success {
+    background-color: #e2e4ff;
+}
+
+.btn-primary {
+    background-color: #969696 !important;
+    border-color: #e8eaff !important;
+}
+
+.col-1 {
+    background-color: #d3d6ff;
+    text-align: left;
+}
+
+.col-2 {
+    background-color: #eaebff;
+    text-align: left;
+}
+.afsar{
+	padding-top: 8px;
+}
+.aminul{
+	padding-top: 8px;
+}
